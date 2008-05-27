@@ -6,12 +6,9 @@ Add your content here.
 
 
 = Links =
-|| *Year* || *Temperature (low)* || *Temperature (high)* ||
-|| 1900 || -10 || 25 ||
-|| 1910 || -15 || 30 ||
-|| 1920 || -10 || 32 ||
-|| 1930 || _N/A_ || _N/A_ ||
-|| 1940 || -2 || 40 ||
+Someone once said:
+
+    This sentence will be quoted in the future as the canonical example of a quote that is so important that it should be visually separate from the rest of the text in which it appears. 
 
 file1.cs
 {{{
