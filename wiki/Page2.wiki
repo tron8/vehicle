@@ -13,12 +13,30 @@ Add your content here.
 || 1930 || _N/A_ || _N/A_ ||
 || 1940 || -2 || 40 ||
 
-Code
+file1.cs
 {{{
-def fib(n):
-  if n == 0 or n == 1:
-    return n
-  else:
-    # This recursion is not good for large numbers.
-    return fib(n-1) + fib(n-2)
+    protected void btnSend_Click(object sender, EventArgs e)
+    {
+        string name = txtName.Text;
+        string email = txtEmail.Text;
+        string order = txtOrder.Text;
+        string subject = txtSubject.Text;
+        string message = txtMessage.Text;
+
+        MailMessage msg = new MailMessage();
+
+        msg.IsBodyHtml = false;
+        msg.From = new MailAddress(email);
+        msg.To.Add(ConfigurationManager.AppSettings["PapersMail"]);
+        msg.Subject = "ContactUs: "+subject;
+        msg.Body = string.Format("From: {0}, E-Mail: {1}\n{2}", name, email, message);
+
+        SmtpClient client = new SmtpClient(ConfigurationManager.AppSettings["SMTP"], 25);
+        client.Credentials = CredentialCache.DefaultNetworkCredentials;
+        client.DeliveryMethod = SmtpDeliveryMethod.Network;
+        client.Send(msg);
+
+        Navigation.ContactUsConfirm();
+    }
+
 }}}
