@@ -6,4 +6,4 @@ Add your content here.
 
 
 = Links =
-[Page1]
+Page1
