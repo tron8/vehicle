@@ -6,12 +6,9 @@ Add your content here.
 
 
 = Links =
-[Page1]
-
-[http://essay7.com/ Essay7]
-
-== L1 ==
-test
-
-=== L2 ===
-test2
+|| *Year* || *Temperature (low)* || *Temperature (high)* ||
+|| 1900 || -10 || 25 ||
+|| 1910 || -15 || 30 ||
+|| 1920 || -10 || 32 ||
+|| 1930 || _N/A_ || _N/A_ ||
+|| 1940 || -2 || 40 ||
