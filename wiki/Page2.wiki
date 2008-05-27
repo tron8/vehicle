@@ -6,6 +6,4 @@ Add your content here.
 
 
 = Links =
-[Page1]
-
-http://code.google.com/images/code_sm.png
+[Page1] http://code.google.com/images/code_sm.png
