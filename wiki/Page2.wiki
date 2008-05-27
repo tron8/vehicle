@@ -7,8 +7,7 @@ Add your content here.
 
 = Links =
 Someone once said:
-
-    This sentence will be quoted in the future as the canonical example of a quote that is so important that it should be visually separate from the rest of the text in which it appears. 
+ This sentence will be quoted in the future as the canonical example of a quote that is so important that it should be visually separate from the rest of the text in which it appears. 
 
 file1.cs
 {{{
