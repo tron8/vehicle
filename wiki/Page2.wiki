@@ -13,10 +13,12 @@ Add your content here.
 || 1930 || _N/A_ || _N/A_ ||
 || 1940 || -2 || 40 ||
 
-Here is another table
-|| *Year* || *Temperature (low)* || *Temperature (high)* ||
-|| 1900 || -10 || 25 ||
-|| 1910 || -15 || 30 ||
-|| 1920 || -10 || 32 ||
-|| 1930 || _N/A_ || _N/A_ ||
-|| 1940 || -2 || 40 ||
+Code
+{{{
+def fib(n):
+  if n == 0 or n == 1:
+    return n
+  else:
+    # This recursion is not good for large numbers.
+    return fib(n-1) + fib(n-2)
+}}}
